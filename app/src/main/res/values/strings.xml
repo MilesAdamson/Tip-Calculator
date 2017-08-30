@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tip Calculator: Split the Bill</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bill_prompt">Bill After Tax:</string>
+    <string name="number_prompt">No. Of People:</string>
+    <string name="percent_prompt">Tip Percentage:</string>
+
+    <string name="tip_result">Tip Per Person:</string>
+    <string name="total_result">Total Bill:</string>
+    <string name="split_result">Total Split Equally:</string>
+
+
+</resources>

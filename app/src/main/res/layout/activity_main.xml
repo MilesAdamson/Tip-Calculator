@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nointelligence.miles.tipcalculatorsplitthebill.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange1"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_billPrompt"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/bill_prompt" />
+
+        <EditText
+            android:id="@+id/edit_bill"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange2"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_percentPrompt"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/percent_prompt" />
+
+        <EditText
+            android:id="@+id/edit_percent"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange3"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_numberPrompt"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/number_prompt" />
+
+        <EditText
+            android:id="@+id/edit_number"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange4"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_totalResult"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/total_result" />
+
+        <TextView
+            android:id="@+id/text_billValue"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange5"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_tipResult"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/tip_result" />
+
+        <TextView
+            android:id="@+id/text_tipValue"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange6"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_splitResult"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/split_result" />
+
+        <TextView
+            android:id="@+id/text_splitValue"
+            android:textSize="20sp"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+</LinearLayout>
