@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -15,25 +14,26 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_billPrompt"
+            android:id="@+id/textViewbillPrompt"
             android:textSize="20sp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:gravity="center_vertical"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:text="@string/bill_prompt" />
+            android:text="@string/prompt_bill" />
 
         <EditText
-            android:id="@+id/edit_bill"
+            android:id="@+id/editTextBill"
             android:layout_width="100dp"
             android:textSize="20sp"
             android:layout_height="wrap_content"
-
-            android:layout_gravity="right"
+            android:layout_gravity="end"
             android:ems="10"
             android:inputType="numberDecimal" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -44,17 +44,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_percentPrompt"
-            android:layout_width="wrap_content"
+            android:id="@+id/textViewPercentPrompt"
+            android:layout_width="0dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="20sp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="@string/percent_prompt" />
+            android:text="@string/prompt_percent" />
 
         <EditText
-            android:id="@+id/edit_percent"
+            android:id="@+id/editTextPercent"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -62,6 +63,7 @@
 
             android:inputType="numberDecimal"
             android:textSize="20sp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -72,23 +74,25 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_numberPrompt"
-            android:layout_width="wrap_content"
+            android:id="@+id/textViewNumberPrompt"
+            android:layout_width="0dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="20sp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="@string/number_prompt" />
+            android:text="@string/prompt_number" />
 
         <EditText
-            android:id="@+id/edit_number"
+            android:id="@+id/editTextNumber"
             android:layout_width="100dp"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -99,17 +103,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_totalResult"
+            android:id="@+id/textViewTotalResult"
             android:textSize="20sp"
             android:layout_marginLeft="15dp"
-            android:layout_width="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="@string/total_result" />
+            android:text="@string/result_total" />
 
         <TextView
-            android:id="@+id/text_billValue"
+            android:id="@+id/textViewBillValue"
             android:layout_width="100dp"
             android:textSize="20sp"
             android:layout_gravity="center"
@@ -126,17 +131,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_tipResult"
+            android:id="@+id/textViewTipResult"
             android:textSize="20sp"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="@string/tip_result" />
+            android:text="@string/result_tip" />
 
         <TextView
-            android:id="@+id/text_tipValue"
+            android:id="@+id/textViewTtipValue"
             android:layout_width="100dp"
             android:layout_gravity="center"
             android:textSize="20sp"
@@ -153,21 +159,21 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/text_splitResult"
-            android:layout_width="match_parent"
+            android:id="@+id/textViewSplitResult"
+            android:layout_width="0dp"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:textSize="20sp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:layout_weight="1"
-            android:text="@string/split_result" />
+            android:text="@string/result_split" />
 
         <TextView
-            android:id="@+id/text_splitValue"
+            android:id="@+id/textViewSplitValue"
             android:textSize="20sp"
             android:layout_width="100dp"
             android:layout_gravity="center"
-            android:layout_centerInParent="true"
             android:layout_height="wrap_content"
             android:text="" />
 
